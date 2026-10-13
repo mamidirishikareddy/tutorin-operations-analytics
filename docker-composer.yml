@@ -1,0 +1,45 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: docker/fastapi.Dockerfile
+    container_name: tuitorin_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    restart: always
+    depends_on:
+      - db
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/docs"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/streamlit.Dockerfile
+    container_name: tuitorin_frontend
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    restart: always
+    depends_on:
+      - backend
+
+  db:
+    image: duckdb/duckdb:latest
+    container_name: tuitorin_duckdb
+    volumes:
+      - ./data:/data
+    command: ["tail", "-f", "/dev/null"]
+    restart: always
