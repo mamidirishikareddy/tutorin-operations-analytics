@@ -1,0 +1,39 @@
+dashboard_title: "📚 TuitorIN – ட்யூஷன் மேலாண்மை டாஷ்போர்டு"
+select_page: "📂 பக்கம் தேர்வு செய்யவும்"
+login_title: "🔐 உள்நுழைவு"
+logout: "🚪 வெளியேறு"
+welcome: "வரவேற்கிறோம்"
+login_failed: "❌ தவறான பயனர் பெயர் அல்லது கடவுச்சொல்"
+login_prompt: "👤 தொடர உள்நுழையவும்"
+
+theme_toggle: "🌓 தீம்"
+
+add_student: "➕ புதிய மாணவரை சேர்க்க"
+import_csv: "📥 CSV மூலம் மாணவர்களை இறக்குமதி செய்யவும்"
+student_added: "✅ மாணவர் வெற்றிகரமாக சேர்க்கப்பட்டார்!"
+student_updated: "✅ மாணவர் தகவல்கள் புதுப்பிக்கப்பட்டது."
+student_deleted: "🗑 மாணவர் நீக்கப்பட்டார்."
+back_to_list: "🔙 பட்டியலுக்கு திரும்பு"
+student_management: "👨‍🎓 மாணவர் மேலாண்மை"
+
+search_by_name: "🔍 பெயர் மூலம் தேடு"
+filter_by_class: "🎓 வகுப்பின்படி வடிகட்டு"
+student_list_title: "### 📋 மாணவர் பட்டியல்"
+
+view_btn: "👁 காண்க"
+edit_btn: "✏️ திருத்து"
+delete_btn: "❌ நீக்கு"
+editing: "✏️ திருத்தப்படுகிறது"
+
+joined: "சேர்ந்த தேதி"
+phone: "தொலைபேசி எண்"
+
+attendance_calendar: "📅 வகுப்பில் வருகை காலெண்டர்"
+today_status: "🚦 இன்றைய வருகை நிலை"
+pending_checkout: "🕓 மாணவர்கள் இன்னும் உள்ளே இருக்கிறார்கள்"
+edit_today: "✏️ இன்றைய பதிவுகளை திருத்து"
+export_attendance: "📥 வருகை பதிவுகளை ஏற்றுமதி செய்க"
+
+select_student: "👤 மாணவரை தேர்வு செய்க"
+test_scores_title: "🧪 தேர்வு மதிப்பெண்கள் மற்றும் செயல்திறன்"
+ai_insights: "🧠 AI பார்வைகள்"
